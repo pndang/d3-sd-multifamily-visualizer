@@ -3,34 +3,39 @@ function main() {
     let mouseOver = function(d) {
         d3.select(this)
           .transition()
-        //   .duration(1000)
           .style("opacity", 0.5)
           .style("stroke", "gray");
-          console.log(d);
-          var submarket = d.relatedTarget.__data__.properties.name
-          console.log("test2");
-          var vacancy = d.relatedTarget.__data__.properties.vacancy
-          var year = d.relatedTarget.__data__.properties.year
-          var parking = d.relatedTarget.__data__.properties.parking
-          tooltip.html("<strong>Submarket:</strong> " + submarket + "<br>" + "<strong>Vacancy Rate:</strong> " + vacancy + "%" + "<br>" + "<strong>Mean built/renov year:</strong> " + year + "<br>" + "<strong>Median Parking/Unit:</strong> " + parking);
-          tooltip.style("visibility", "visible");
-    }
+    
+          var submarket = d.properties.name;
+          var vacancy = d.properties.vacancy || 0; // Default to 0 if property not found
+          var year = d.properties.year || 0;
+          var parking = d.properties.parking || 0;
+    
+        tooltip.html("<strong>Submarket:</strong> " + submarket + "<br>" + 
+                     "<strong>Vacancy Rate:</strong> " + vacancy + "%" + "<br>" + 
+                     "<strong>Mean built/renov year:</strong> " + year + "<br>" + 
+                     "<strong>Median Parking/Unit:</strong> " + parking);
+        
+        tooltip.style("visibility", "visible");
+    };
     
     let mouseLeave = function(d) {
         d3.select(this)
-            .transition()
-            // .duration(200)
-            .style("opacity", 1)
-            .style("stroke", "gray")
-            tooltip.style("visibility", "hidden");
-    }
+          .transition()
+          .style("opacity", 1)
+          .style("stroke", "gray");
+
+        tooltip.style("visibility", "hidden");
+    };
 
     var tooltip = d3.select("body")
                     .append("div")
+                    .attr("class", "tooltip")
                     .style("position", "absolute")
                     .style("visibility", "hidden")
                     .style("background", "#FFC0CB")
-                    .text("a simple tooltip");
+                    .style("padding", "5px")
+                    .style("border-radius", "5px");
 
     // Define the SVG width and height
     var width = 800;
@@ -133,7 +138,7 @@ function main() {
                 });
 
                 function updateVisualization(selectedUnitRange) {
-                    console.log(selectedUnitRange)
+                    // Filter data based on selectedUnitRange
                     var filteredData = mapData.features.filter(function(d) {
                         var units = +d.properties.units;
                         switch (selectedUnitRange) {
@@ -152,19 +157,25 @@ function main() {
                             default:
                                 return true;
                         }
-                        attachEventListeners();
                     });
+                    
+                    var paths = svg.selectAll("path")
+                    .data(filteredData);
 
-                    svg.selectAll("path")
-                       .data(filteredData)
-                       .enter()
-                       .append("path")
-                       .attr("d", path)
-                       .style("fill", function(d) { return colorScale(d.properties.vacancy); })
-                       .style("stroke", "gray")
-                       .style("stroke-width", 0.5)
-                       .on('mouseover', mouseOver)
-                       .on('mouseleave', mouseLeave);
+                    paths.exit().remove(); // Remove old elements
+
+                    paths.enter().append("path") // Append new elements
+                        .merge(paths) // Merge new and existing elements
+                        .attr("d", path)
+                        .style("fill", function(d) { return colorScale(d.properties.vacancy); })
+                        .style("stroke", "gray")
+                        .style("stroke-width", 0.5)
+                       .on('mouseover', function() {
+                        mouseOver(d3.select(this).datum()); // Pass data 'd' using datum()
+                    })
+                    .on('mouseleave', function() {
+                        mouseLeave(d3.select(this).datum()); // Pass data 'd' using datum()
+                    });
                 }
 
                 function processButtonInput() {
@@ -173,7 +184,7 @@ function main() {
                   }
                   
                 // Event listener to the radio button
-                d3.select("#unitRange").on("change", processButtonInput )
+                d3.select("#unitRange").on("change", processButtonInput);
 
                 // processButtonInput(54);
                 updateVisualization("50-199");

@@ -1,0 +1,73 @@
+,Address,Building Name,Class,Units,RBA/GLA,Secondary Type,Submarket,City,Land(AC),Built/Renov,Total Buildings,Stories,Vacancy %,Rent Type,Affordable Type,Parking Spaces/Unit,Parking Spaces
+0,3501 1st Ave,3501 1st Avenue,C,22,"16,354",Apartments,Hillcrest,San Diego,0.31,1960,1,2,2.3,Affordable,Rent Restricted,0.73,16
+1,3534 5th Ave,Strauss on Fifth,B,141,"261,900",Apartments,Hillcrest,San Diego,0.98,2019,1,6,0.8,Market/Affordable,Affordable Units,,
+2,3754 5th Ave,Hillcrest Inn,C,46,"47,000",Apartments,Hillcrest,San Diego,0.16,1988,1,3,4.5,Affordable,Affordable Units,,
+3,3705 10th Ave,,C,5,"7,460",Apartments,Uptown San Diego,San Diego,0.22,2001,1,1,2.3,Affordable,Rent Subsidized,1.60,8
+4,2104-2106 Abbott St,,C,2,"1,944",Apartments,Ocean Beach,San Diego,0.11,1950,2,1,4.3,Market/Affordable,Affordable Units,,
+5,4122-4128 Bannock Ave,,C,4,"3,032",Apartments,Clairemont,San Diego,0.30,1954,2,1,2.9,Affordable,Affordable Units,,6
+6,7720 Belden St,Village North Senior Garden Apartments,C,120,"61,468",Apartments,Clairemont,San Diego,2.36,1985,7,2,0.9,Affordable,Rent Restricted,0.75,90
+7,4503 Bond St,,,2,"1,720",Apartments,Pacific Beach,San Diego,0.13,1953/2020,2,1,3.3,Market/Affordable,Rent Controlled,,4
+8,12730 Briarcrest Pl,Windwood Village,B,92,"91,879",Apartments,Carmel Valley,San Diego,4.38,2003,11,2,0.0,Affordable,Rent Restricted,3.26,300
+9,3884 Caminito Aguilar,The Stratton Apartments,C,312,"286,925",Apartments,Clairemont,San Diego,10.62,1973,17,3,3.1,Market/Affordable,Rent Restricted,1.92,600
+10,14350 Camino De La Luna,Chandon Village,C,10,"9,478",Apartments,Black Mountain Ranch,San Diego,1.22,2004,2,2,3.0,Affordable,Affordable Units,1.70,17
+11,6050 Camino San Fermin,Cielo Carmel,B,197,"150,000",Apartments,Carmel Valley,San Diego,10.08,2016,12,2,0.3,Affordable,Rent Restricted,,
+12,13863 Carmel Valley Rd,Torrey Del Mar Apartments,B,112,"157,476",Apartments,Torrey Highlands,San Diego,5.52,2000,7,2,0.1,Affordable,Rent Restricted,1.34,150
+13,4820 Cass St,Pacific Beach Shores,C,48,"21,852",Apartments,Pacific Beach,San Diego,0.58,1979,2,3,3.3,Affordable,Rent Subsidized,0.46,22
+14,3761-3771 Centre St,Centre Street Lofts,B,25,"18,654",Apartments,Uptown San Diego,San Diego,0.10,2010,2,3,0.0,Market/Affordable,Affordable Units,0.96,24
+15,7568 Charmant Dr,Mirada at La Jolla Colony,A,444,"308,072",Apartments,University City,San Diego,12.76,1987,22,3,5.4,Market/Affordable,Affordable Units,1.13,500
+16,2835 Clairemont Ct,Cerro Pueblo,C,46,"37,326",Apartments,Bay Park,San Diego,1.64,1982,3,1,2.9,Affordable,Rent Subsidized,1.09,50
+17,2565 Clairemont Dr,,B,350,"40,000",Apartments,Bay Park,San Diego,,2024,1,4,,Market/Affordable,Rent Stabilized,,
+18,4888 Convoy St,Alexan Camellia,A,531,"275,829",Apartments,Kearny Mesa,San Diego,3.72,2024,2,6,,Market/Affordable,Rent Restricted,,
+19,2875 Cowley Way,Sorrento Tower,C,198,"124,600",Apartments,Bay Park,San Diego,1.36,1977,1,14,0.2,Affordable,Rent Restricted,0.51,100
+20,1065 Diamond St,Diamond St 4 units,,4,"2,270",Apartments,Pacific Beach,San Diego,0.07,1965,2,2,4.3,Market/Affordable,,1.00,4
+21,1976 Diamond St,,B,3,"5,100",Apartments,Pacific Beach,San Diego,0.19,2021,3,3,4.3,Market/Affordable,Affordable Units,,6
+22,2240 W Dunlop St,,C,6,"3,826",Apartments,Linda Vista,San Diego,0.15,1957,1,2,2.9,Market/Affordable,Affordable Units,1.00,6
+23,7095-7105 Eastman St,7105-20 Eastman Street,C,36,"58,016",Apartments,Linda Vista,San Diego,1.83,1989,7,2,2.9,Affordable,Rent Subsidized,1.86,67
+24,12643-12687 El Camino Real,,B,45,"45,000",Apartments,Carmel Valley,San Diego,2.53,,15,2,3.0,Affordable,Rent Subsidized,0.00,
+25,1011 Fort Stockton Dr,The Fort,A,29,"30,211",Apartments,Mission Hills,San Diego,0.28,2018,1,8,1.0,Market/Affordable,Affordable Units,0.90,26
+26,7526-7580 Fulton St,7526-80 Fulton Street,C,31,"43,928",Apartments,Linda Vista,San Diego,2.36,1997,9,2,2.9,Affordable,Affordable Units,1.61,50
+27,2615-2665 Genesee Ave,,C,18,"20,186",Apartments,Linda Vista,San Diego,0.86,,3,2,2.9,Affordable,Rent Subsidized,1.00,18
+28,1825 Hancock St,Mission Apartments,A,85,"99,894",Apartments,Midway District,San Diego,1.60,2012,1,3,0.2,Affordable,Rent Restricted,0.61,52
+29,4040-4080 Hancock St,The Orchard,C,563,"321,776",Apartments,Midway District,San Diego,5.01,1978/1981,47,2,0.1,Market/Affordable,Rent Restricted,0.09,50
+30,1956 Hornblend St,The Blend,A,14,"18,070",Apartments,Pacific Beach,San Diego,0.18,2022,2,3,4.2,Market/Affordable,Affordable Units,,14
+31,9085 Judicial Dr,La Jolla Crossroads,B,"1,500","2,148,585",Apartments,University City,San Diego,21.45,2011,9,5,2.6,Market/Affordable,Rent Restricted,0.55,830
+32,3455 Kearny Villa Rd,Mira Bella Luxury Apartments,A,289,"325,242",Apartments,Serra Mesa,San Diego,5.39,2009,1,4,7.0,Market/Affordable,Rent Restricted,1.11,320
+33,6496 Lanston St,,C,6,"7,736",Apartments,Linda Vista,San Diego,0.55,2014,3,1,2.9,Affordable,Rent Controlled,0.83,17
+34,5526 Lauretta St,Lauretta Landing,B,31,"47,933",Apartments,Morena,San Diego,0.36,2021,1,4,0.0,Market/Affordable,Affordable Units,1.00,30
+35,540 Lewis St,Mercy Gardens,C,23,"14,274",Apartments,Hillcrest,San Diego,0.69,,1,3,2.3,Affordable,Rent Subsidized,0.61,14
+36,5945 Linda Vista Rd,Pacific Ridge,A,533,"605,568",Apartments,Morena,San Diego,12.97,2013,3,5,7.1,Market/Affordable,Rent Restricted,0.75,400
+37,3222 Loma Riviera Cir,,C,8,"13,194",Apartments,Point Loma Heights,San Diego,0.50,,2,2,3.3,Affordable,Rent Subsidized,1.00,8
+38,8800 Lombard Pl,Palisade,A,300,"289,041",Apartments,University City,San Diego,1.24,2019,2,23,9.5,Market/Affordable,Affordable Units,,
+39,4131 Maryland St,4131 Maryland Street,C,24,"18,093",Apartments,University Heights,San Diego,0.30,1970,1,3,2.3,Affordable,Rent Subsidized,0.83,20
+40,5585 Mildred St,Blend - SD,B,54,"50,000",Apartments,Morena,San Diego,0.80,2022,1,4,5.6,Market/Affordable,Affordable Units,,
+41,4275 Mission Bay Dr,Mara Pacific Beach,A,172,"183,571",Apartments,Pacific Beach,San Diego,2.86,2019,1,3,2.4,Market/Affordable,Affordable Units,1.16,200
+42,5255 Mount Etna Dr,,B,404,"250,000",Apartments,Clairemont,San Diego,4.00,2024,1,5,,Affordable,Rent Subsidized,,
+43,5395 Napa St,Arrive Mission Valley,A,185,"185,000",Apartments,Morena,San Diego,4.59,2005,2,4,9.2,Market/Affordable,Rent Restricted,0.87,160
+44,14103-14163 Old El Camino Real,Derby Terrace,C,24,"21,840",Apartments,North City,San Diego,3.66,2002,3,2,1.3,Affordable,Rent Restricted,2.25,54
+45,1329-1337 Oliver Ave,,C,5,"3,800",Apartments,Pacific Beach,San Diego,0.13,,1,2,3.3,Affordable,Rent Subsidized,,
+46,4392 W Point Loma Blvd,Mariner's Cove Apartments,B,500,"455,812",Apartments,Point Loma Heights,San Diego,30.21,1984,24,2,1.9,Affordable,Rent Subsidized,1.66,830
+47,4055-4083 Pulitzer Pl,,B,50,"45,000",Apartments,University City,San Diego,2.50,,13,2,2.9,Affordable,Rent Subsidized,0.00,
+48,6525 Rancho Del Sol Way,Torrey Vale Apartments,B,28,"2,800",Apartments,Carmel Valley,San Diego,2.96,,4,,3.0,Affordable,Affordable Units,,
+49,6591 Rancho del Sol Way,Villa Andalucia,B,32,"30,744",Apartments,Carmel Valley,San Diego,1.35,,2,3,0.1,Affordable,Rent Restricted,1.50,60
+50,3333 Reynard Way,,B,17,"18,581",Apartments,Bankers Hill,San Diego,0.49,2020,1,4,3.2,Market/Affordable,Rent Restricted,,
+51,5982 Riley St,,,1,"2,046",,Morena,San Diego,0.11,1950,3.9,,,Market/Affordable,,,2
+52,8310 Rio San Diego Dr,Stylus & Siena,A,306,"230,000",Apartments,Mission Valley,San Diego,5.50,2021,1,7,1.0,Affordable,Rent Restricted,,
+53,635 Robinson Ave,MÖDE,A,111,"100,558",Apartments,Uptown San Diego,San Diego,0.96,2022,1,7,22.5,Market/Affordable,Affordable Units,,
+54,4819 Santa Cruz Ave,Santa Cruz Apartments,C,9,"7,060",Apartments,Ocean Beach,San Diego,0.16,,1,2,,Market/Affordable,Affordable Units,0.00,
+55,12759 Seabreeze Farms Dr,Long Acres at Seabreeze Farms,B,45,"48,476",Apartments,Carmel Valley,San Diego,2.49,,4,2,3.0,Affordable,Rent Subsidized,1.00,45
+56,13481 Silver Ivy Ln,Park Terramar,B,21,"16,800",Apartments,Torrey Highlands,San Diego,1.09,,3,2,2.7,Affordable,Rent Restricted,0.00,
+57,1026-1042 1/2 W Spruce St,West Mission Hills Six,C,6,"4,218",Apartments,Midtown San Diego,San Diego,0.33,1956,1,2,2.3,Affordable,Rent Subsidized,1.50,9
+58,6625-6627 Tait St,,C,32,"29,528",Apartments,Linda Vista,San Diego,0.94,1987,4,2,2.9,Affordable,Rent Subsidized,1.06,34
+59,13370 Torrey Meadows Dr,Torrey Highland Apartments,B,76,"105,252",Apartments,Torrey Highlands,San Diego,4.12,2001/2012,4,3,0.0,Affordable,Rent Restricted,2.50,190
+60,6984-6996 Torrey Santa Fe Rd,Villa Glen Apartments,C,26,"24,085",Apartments,Torrey Highlands,San Diego,2.34,,3,2,2.7,Affordable,Rent Restricted,0.00,
+61,4142 Udall St,,,4,"3,271",Apartments,Point Loma Heights,San Diego,0.15,1947,2,,4.3,Market/Affordable,,,2
+62,2601-2641 Ulric St,Ulric Street Apartments II,A,60,"41,408",Apartments,Linda Vista,San Diego,1.40,2023,1,3,,Affordable,Affordable Units,,
+63,2645-2685 Ulric St,Amanecer Apartments,B,96,"140,393",Apartments,Linda Vista,San Diego,1.47,2023,1,5,0.0,Affordable,Rent Restricted,1.00,96
+64,2355 Via Alta,Versa,A,150,"89,054",Apartments,Mission Valley,San Diego,2.03,2015,1,5,0.0,Affordable,Rent Restricted,0.00,
+65,2052-2098 Via Las Cumbres,University Canyon West,B,84,"75,000",Apartments,Linda Vista,San Diego,3.80,,11,2,2.9,Affordable,Rent Subsidized,0.00,
+66,2055-2095 Via Las Cumbres,,B,36,"26,000",Apartments,Linda Vista,San Diego,1.63,,8,,2.9,Affordable,Rent Subsidized,0.00,
+67,7735 Via Solare,Vista Terraza Apartment Homes,C,123,"184,636",Apartments,Torrey Highlands,San Diego,2.48,2006,3,4,0.0,Affordable,Rent Restricted,1.30,160
+68,6025 Village Way,Luna at Pacific Highlands Ranch,B,79,"79,000",Apartments,Carmel Valley,San Diego,0.70,2019/2022,2,4,,Affordable,Rent Restricted,,
+69,3909 Voltaire St,Nimitz Crossing,B,36,"32,488",Apartments,Point Loma Heights,San Diego,0.62,2020,1,3,4.2,Market/Affordable,Affordable Units,,60
+70,901 W Washington St,Sasan Apartments,B,54,"48,000",Apartments,Midtown San Diego,San Diego,1.26,2023,1,2,,Market/Affordable,Affordable Units,,
+71,13525 Zinnia Hills Pl,The Crossings,A,108,"109,821",Apartments,North City,San Diego,5.98,2006,10,2,0.9,Affordable,Rent Restricted,0.93,100

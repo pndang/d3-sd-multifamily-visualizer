@@ -106,9 +106,9 @@ function main() {
         .on('mouseleave', mouseLeave);
     }
 
-    d3.json('d3-sd-multifamily-visualizer/data/san-diego.geojson').then(
+    d3.json('data/san-diego.geojson').then(
         function (mapData) {
-            d3.csv('d3-sd-multifamily-visualizer/data/clean_costar_data.csv').then(function (realEstateData) {
+            d3.csv('data/clean_costar_data.csv').then(function (realEstateData) {
                 var vacancyBySubmarket = new Map();
                 var yearBySubmarket = new Map();
                 var parkingBySubmarket = new Map();

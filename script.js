@@ -138,7 +138,7 @@ function main() {
                 });
 
                 function updateVisualization(selectedUnitRange) {
-                    console.log(selectedUnitRange)
+                    // Filter data based on selectedUnitRange
                     var filteredData = mapData.features.filter(function(d) {
                         var units = +d.properties.units;
                         switch (selectedUnitRange) {
@@ -157,17 +157,19 @@ function main() {
                             default:
                                 return true;
                         }
-                        attachEventListeners();
                     });
+                    
+                    var paths = svg.selectAll("path")
+                    .data(filteredData);
 
-                    svg.selectAll("path")
-                       .data(filteredData)
-                       .enter()
-                       .append("path")
-                       .attr("d", path)
-                       .style("fill", function(d) { return colorScale(d.properties.vacancy); })
-                       .style("stroke", "gray")
-                       .style("stroke-width", 0.5)
+                    paths.exit().remove(); // Remove old elements
+
+                    paths.enter().append("path") // Append new elements
+                        .merge(paths) // Merge new and existing elements
+                        .attr("d", path)
+                        .style("fill", function(d) { return colorScale(d.properties.vacancy); })
+                        .style("stroke", "gray")
+                        .style("stroke-width", 0.5)
                        .on('mouseover', function() {
                         mouseOver(d3.select(this).datum()); // Pass data 'd' using datum()
                     })
@@ -182,7 +184,7 @@ function main() {
                   }
                   
                 // Event listener to the radio button
-                d3.select("#unitRange").on("change", processButtonInput )
+                d3.select("#unitRange").on("change", processButtonInput);
 
                 // processButtonInput(54);
                 updateVisualization("50-199");
